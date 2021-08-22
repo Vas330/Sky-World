@@ -7,6 +7,7 @@ public class Shop : MonoBehaviour
     public GameObject ShopMenu;
     void Start()
     {
+        if (ShopMenu == null) return;
         ShopMenu.SetActive(false);
     }
 

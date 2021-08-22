@@ -14,6 +14,7 @@ public class Buy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (BuyButton == null) return;
         if (BuySkin == 1)
         {
             BuyButton.SetActive(true);
